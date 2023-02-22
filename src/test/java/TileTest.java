@@ -14,7 +14,7 @@ class TileTest {
     }
 
     @Test
-    public void testMerge() {
+    public void shouldMergeOneTileIntoOther() {
         Tile tile1 = new Tile(2, 0, 0);
         Tile tile2 = new Tile(2, 0, 1);
         tile1.merge(tile2);
